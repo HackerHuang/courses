@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="prj1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/prj/prj1/jai_core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/prj/prj1/jai_codec.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

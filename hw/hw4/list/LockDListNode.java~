@@ -1,0 +1,10 @@
+class LockDListNode extends DListNode {
+
+    boolean isLocked;
+
+    public LockDListNode() {
+	super();
+	isLocked = false;
+    }
+
+}

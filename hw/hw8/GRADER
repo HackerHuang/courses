@@ -1,0 +1,23 @@
+GRADER file for Homework 8
+
+ Your Name:  
+Your Login:  
+
+Part III.  Running time comparisons
+
+  List size         mergesort             quicksort
+      100 	    2			  0
+    1,000	    10			  3
+   10,000	    37			  33
+  100,000	    193			  176
+1,000,000	    3342		  1173
+
+Part IV.
+
+  Is mergesort stable?  
+  Why or why not?
+  no.
+
+  Is quicksort stable?  
+  Why or why not?
+  yes.

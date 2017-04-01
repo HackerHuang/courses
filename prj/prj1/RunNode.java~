@@ -1,0 +1,38 @@
+class RunNode {
+
+    // The returned array encodes a run by storing the length
+    // of the run (the number of pixels) at index zero, the red
+    // pixel intensity at index one, the green pixel intensity
+    // at index two, and the blue pixel intensity at index three.
+
+    int[] run;
+
+    RunNode prev;
+
+    RunNode next;
+
+    public RunNode() {
+	this(new int[] {0, 0, 0, 0});
+    }
+
+    public RunNode(int runLength, int red, int green, int blue) {
+	this(new int[] {runLength, red, green, blue});
+    }
+
+    public RunNode(int[] run) {
+	this.run = run;
+	prev = null;
+	next = null;
+    }
+
+    public String toString() {
+	String s = "[";
+	for(int i : run) {
+	    s += i + " ";
+	}
+	s += "]";
+	return s;
+    }
+}
+    
+    

@@ -1,0 +1,12 @@
+class LockDList extends DList {
+
+
+    public void lockNode(DListNode node) {
+        ((LockDListNode) node).isLocked = true;
+    }
+
+    public void remove(DListNode node) {
+	
+    }
+
+}
